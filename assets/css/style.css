@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.accordion-button::after {
+    background-image: url(/assets/images-png/arrow\ 2.png) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/assets/images-png/arrow\ 2.png) !important;
+}
+
+.btn-2::after {
+    background-image: url(/assets/images-png/whitearrow-1-up.png) !important;
+}
+
+.btn-2:not(.collapsed)::after {
+    background-image: url(/assets/images-png/whitearrow-1-up.png) !important;
+
+}
+
+.btn-3::after {
+    background-image: url(/assets/images-png/blue-arrow-up.png) !important;
+}
+
+.btn-3:not(.collapsed)::after {
+    background-image: url(/assets/images-png/blue-arrow-up.png) !important;
+}
+
+.accordion-2-image {
+    background-image: url(/assets/images-png/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.accordion-text-1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.accordion-text-2 {
+    background: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.accordion-body-para {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+
+.bg-yellow {
+    background: #f6e300;
+}
+
+.faq {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.bg-light-yellow {
+    background: #fff03f !important;
+}
+
+.accordion-button {
+    box-shadow: none !important;
+    color: black;
+}
+
+.accordian-pera {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.accordion-item-1 {
+    border: none !important;
+}
+
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-button {
+    box-shadow: none !important;
+    color: black;
+}
+
+.bg-light-yellow {
+    background: #fff03f !important;
+}
+
+.accordion-text-2 {
+    background: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.a-item {
+    color: #b7b8b8 !important;
+}
+
+.a-btn:not(.collapsed) {
+    background-color: #171717 !important;
+    color: white !important;
+}
+
+.bg-blur {
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.1) 0%,
+            rgba(255, 255, 255, 0.03) 100%) !important;
+}
+
+/* .blur{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%);
+} */
+
+.accordion-button {
+    color: black !important;
+}
+
+.accordion-btn-2 {
+    color: white !important;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-64 {
+    font-size: 64px;
+}
+
+.li-hight-30 {
+    line-height: 30px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.min-height {
+    min-height: 80vh;
+}
+
+.btn-2-border {
+    border: 3px solid linear-gradient(180deg,
+            rgba(255, 255, 255, 0.16) 0%,
+            rgba(255, 255, 255, 0.04) 100%) !important;
+
+}
+
+/* ========================Accordion-3======================== */
+.audiowide {
+    font-family: "Audiowide", sans-serif;
+
+}
+
+.Montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.bg-image-3 {
+    background-image: url(/assets/images-png/background-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.border-accordian {
+    border: 1px solid #1EADB6 !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-right-radius: 40px !important;
+}
+
+.border-shadow {
+    -webkit-box-shadow: 0px -1px 12px -2px rgba(30, 173, 182, 1);
+    -moz-box-shadow: 0px -1px 12px -2px rgba(30, 173, 182, 1);
+    box-shadow: 0px -1px 12px -2px rgba(30, 173, 182, 1);
+}
+
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.p-t-b {
+    padding: 10px 20px;
+    padding-top: 10px;
+}
+
+.w-1078 {
+    width: 1078px !important;
+}
+
+.border-shadow:has(.accordion-header > .accordion-button.collapsed) {
+    box-shadow: unset !important;
+}
+
+.top {
+    top: -0.7px;
+    left: -0.3px;
+}
+
+.bottom {
+    bottom: -0.7px;
+    right: -1.5px;
+}
