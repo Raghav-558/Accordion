@@ -195,9 +195,7 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
 }
 
-.border-shadow:has(.accordion-header > .accordion-button.collapsed) {
-    box-shadow: unset !important;
-}
+
 /* ========================Accordion-3======================== */
 .audiowide {
     font-family: "Audiowide", sans-serif;
