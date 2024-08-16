@@ -9,29 +9,29 @@
     font-family: "Poppins", sans-serif;
 }
 
-.accordion-button::after {
+/* .accordion-button::after {
     background-image: url(/assets/images-png/arrow\ 2.png) !important;
 }
 
 .accordion-button:not(.collapsed)::after {
     background-image: url(/assets/images-png/arrow\ 2.png) !important;
-}
+} */
 
 .btn-2::after {
-    background-image: url(/assets/images-png/whitearrow-1-up.png) !important;
+    background-image: url(/assets/images-png/whitearrow-1-down.png) !important;
 }
 
 .btn-2:not(.collapsed)::after {
-    background-image: url(/assets/images-png/whitearrow-1-up.png) !important;
+    background-image: url(/assets/images-png/whitearrow-1-down.png) !important;
 
 }
 
 .btn-3::after {
-    background-image: url(/assets/images-png/blue-arrow-up.png) !important;
+    background-image: url(/assets/images-png/blue-arrow-down.png) !important;
 }
 
 .btn-3:not(.collapsed)::after {
-    background-image: url(/assets/images-png/blue-arrow-up.png) !important;
+    background-image: url(/assets/images-png/blue-arrow-down.png) !important;
 }
 
 .accordion-2-image {
@@ -171,13 +171,33 @@
     min-height: 80vh;
 }
 
-.btn-2-border {
-    border: 3px solid linear-gradient(180deg,
-            rgba(255, 255, 255, 0.16) 0%,
-            rgba(255, 255, 255, 0.04) 100%) !important;
-
+.acc-2 button {
+    background-color: transparent !important;
 }
 
+.acc-2 .accordion-item {
+    position: relative;
+    border: none !important;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%) !important;
+}
+
+.acc-2 .accordion-item::before  {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 0px;
+    padding: 2px;
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+}
+
+.border-shadow:has(.accordion-header > .accordion-button.collapsed) {
+    box-shadow: unset !important;
+}
 /* ========================Accordion-3======================== */
 .audiowide {
     font-family: "Audiowide", sans-serif;
@@ -217,9 +237,9 @@
     padding-top: 10px;
 }
 
-.w-1078 {
+/* .w-1078 {
     width: 1078px !important;
-}
+} */
 
 .border-shadow:has(.accordion-header > .accordion-button.collapsed) {
     box-shadow: unset !important;
